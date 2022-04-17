@@ -131,7 +131,7 @@ under the License.
     </server>
     -->
       <server>
-      <id>mavencustomrepo</id>
+      <id>nexus</id>
       <username>user1</username>
       <password>ZZuper123</password>
     </server>
