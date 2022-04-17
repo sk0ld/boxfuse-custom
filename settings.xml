@@ -130,6 +130,11 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
+      <server>
+      <id>mavencustomrepo</id>
+      <username>user1</username>
+      <password>ZZuper123</password>
+    </server>
   </servers>
 
   <!-- mirrors
