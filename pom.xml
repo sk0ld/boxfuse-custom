@@ -33,12 +33,5 @@
                 </configuration>
             </plugin>
         </plugins>
-
-	<snapshotRepository>
-		<id>devopsschool</id>
-		<name>Internal Releases</name>
-		<url>http://192.168.31.216:8081/repository/mavencustomart/</url>
-	</snapshotRepository>
-
 </distributionManagement>
 </project>
