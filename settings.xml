@@ -130,12 +130,14 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
-      <server>
-      <id>nexus</id>
-      <username>user1</username>
-      <password>ZZuper123</password>
-    </server>
-  </servers>
+
+    <server>
+   <id>nexus</id>
+   <username>user1</username>
+   <password>ZZuper123</password>
+  </server>
+	    
+  </servers>	  
 
   <!-- mirrors
    | This is a list of mirrors to be used in downloading artifacts from remote repositories.
@@ -147,7 +149,7 @@ under the License.
    | That repository definition will have a unique id, so we can create a mirror reference for that
    | repository, to be used as an alternate download site. The mirror site will be the preferred
    | server for that repository.
-   |-->
+  |-->
   <mirrors>
     <!-- mirror
      | Specifies a repository mirror site to use instead of a given repository. The repository that
@@ -160,12 +162,14 @@ under the License.
       <name>Human Readable Name for this Mirror.</name>
       <url>http://my.repository.com/repo/path</url>
     </mirror>
-     -->
+    -->
+  
     <mirror>
       <id>nexus</id>
       <url>http://192.168.31.216:8081/repository/mavencustomrepo/</url>
       <mirrorOf>central</mirrorOf>
     </mirror>
+	    
   </mirrors>
 
   <!-- profiles
